@@ -40,7 +40,7 @@ Test:
     
 ## Configuration files
 
-Yo need to understand and modify these:
+Understand and modify these:
 
 * pypipes/config.yaml (in pypipes) describe the pipelines
 * javademo/pipelines/pipelines.yaml the pipeline
