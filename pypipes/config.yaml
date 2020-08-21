@@ -6,6 +6,6 @@ pipelines:
   javaProgram:
     scm:
       git:
-        uri: /home/fabio.curi/repos/
-        repo: testpipe
-    path: pipelines/pipeline.yaml
+        uri: git@github.com:curif/
+        repo: NoToolPipelines.git
+    path: javademo/pipelines/pipeline.yaml
