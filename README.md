@@ -20,8 +20,8 @@ Don't try to run it without analisys, you will need to understand a modify the c
 
 ## sources
 
-/javademo: simple service (java spring boot and maven) to build and deploy
-/pypipes: our python pipeline
+* /javademo: simple service (java spring boot and maven) to build and deploy
+* /pypipes: our python pipeline
 
 ## The pipeline
 
