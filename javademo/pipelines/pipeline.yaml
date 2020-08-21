@@ -1,0 +1,12 @@
+pipeline:
+    stages:
+        build:
+            - maven:
+                package:
+                    path: .
+        release:
+            - exec:
+                path: build.sh
+        deploy:
+            - kube:
+                path: pipelines/deploy.yaml

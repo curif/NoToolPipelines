@@ -1,0 +1,11 @@
+---
+parameters:
+  workPath: work
+
+pipelines:
+  javaProgram:
+    scm:
+      git:
+        uri: /home/fabio.curi/repos/
+        repo: testpipe
+    path: pipelines/pipeline.yaml
