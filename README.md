@@ -27,8 +27,8 @@ Don't try to run it without analisys, you will need to understand a modify the c
 
     mkdir work
     cd work
-    git clone /home/fabio.curi/repos/testpipe/
-    cd work/testpipe
+    git clone git@github.com:curif/NoToolPipelines.git
+    cd work/javademo
     mvn package
     ./build.sh 
     kubectl apply -f pipelines/deploy.yaml 
